@@ -58,7 +58,7 @@ public class Basics {
          *
          *    (Relevant reading: 1.2. Variables and Types)
          */
-        
+
 
         /*
          * TODO (Task 2): Create a variable named my_variable and assign it the
@@ -181,12 +181,12 @@ public class Basics {
          *                (e.g. arr[i] gives you the item at index i).
          */
         if (arr.length == 0 || arr.length == 1) {
-            return 0
+            return 0;
         }
         else {
             for (int i = 0; i < arr.length; i++){
-                if i % 2 == 1 {
-                    current_sum += arr[i]
+                if (i % 2 == 1){
+                    current_sum += arr[i];
                 }
             }
         }
